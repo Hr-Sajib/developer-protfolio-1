@@ -113,37 +113,38 @@ nav li{
     width: 32rem;
     margin-left: 2rem;
 }
+
+
+
+
+main{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
 .aboutSection{
-    width: 70%;
-    height: 30rem;
-    margin: 10% 15%;
-    padding: 3rem 1rem 2rem 1rem;
-    background-color:#FFF8F3;
+    padding: 130px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-shrink: 0;
+    background-color: #f6d2ab;
+    margin: 130px 0;
 }
 .sectionTitle{
-    color: var(--Dark-01, #181818);
+    color: #181818;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-.aboutText{
-    color: var(--Dark-03, #757575);
-    text-align: center;
-    line-height: 166.667%;
-    width: 85%;
-
+    font-size: 35px;
+    font-weight: 700;
 }
 .aboutPointsContainer{
     display: flex;
-    justify-content: space-between;
-    padding: 0px;
-   
+    justify-content: space-around;
 }
 .aboutPoints{
     text-align: center;
 }
+.pointName{
+    margin: 2rem 0px 0px 0px;
+}
+.pointDetails{
+    margin:0px 0px;
+}
+
